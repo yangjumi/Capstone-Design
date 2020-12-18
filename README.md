@@ -60,6 +60,8 @@
      - feature importance를 구현할 모델은 가장 예측 정확도가 높은 catboost를 활용하였다.
      - catboost를 활용해 target 변수와 연관성이 높은 top 20 변수를 추출한 결과는 아래 그림과 같다.
      - 최종적으로 설문지 문항에 사용할 변수는 top 10이다.
+
+![importance](https://user-images.githubusercontent.com/60904652/102587434-2a219d80-414f-11eb-9e90-27290d75dec3.png)
      
 ### Ensemble model
      - 머신러닝 3가지 모델을 구현할 때 각 predict 값을 구했다.
@@ -71,6 +73,9 @@
      - 설문지에 대한 답변을 CSV 파일로 변환해, 앞선 모델을 활용하여 나트륨 위험군을 예측할 수 있다.
      - 아래 사진은 설문지 일부를 나타낸 것이다.
      
+![survey1](https://user-images.githubusercontent.com/60904652/102587426-27bf4380-414f-11eb-8320-f18e219df271.png)
+![survey2](https://user-images.githubusercontent.com/60904652/102587430-28f07080-414f-11eb-8e6a-e86c7aab293f.png)
+     
 ### Predict
      - target 변수를 토대로 해당 사람이 나트륨위험군 중 어느 군에 속하는지 알 수 있다.
      - target 값은 1~3의 결과를 도출할 수 있다.
@@ -78,6 +83,8 @@
      
 ### Email
      - 총 52명이 참가했으며, 해당 예측 결과와 저염레시피를 포함한 이메일을 전송해준다.
+     
+![email](https://user-images.githubusercontent.com/60904652/102587419-24c45300-414f-11eb-907c-35474a9f456a.png)
      
 ## Expected effect and Application plan
 ### Expected effect
