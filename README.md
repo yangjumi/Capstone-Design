@@ -42,7 +42,6 @@
      - 예를 들어 MAPE가 5이면 예측값은 평균 5%를 벗어난다는 것을 뜻한다.
      - MAPE를 기준으로 하되, 다른 평가 지표 또한 구하였다.
      
-     
 ### Machine Learning model
      - catboost, xgboost, LGBM의 총 세가지 모델을 사용하였다.
      - 해당 모델은 feature importance, 나트륨위험군예측에 사용하였다.
